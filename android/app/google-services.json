@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "777520171626",
+    "firebase_url": "https://hino-snc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hino-snc",
+    "storage_bucket": "hino-snc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777520171626:android:370b6e1b1c5d7c0bbe5813",
+        "android_client_info": {
+          "package_name": "com.example.hinosnc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzeooXlPmkcb1JK8JKCpL7rhADwKVjrr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

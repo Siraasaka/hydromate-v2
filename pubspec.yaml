@@ -1,0 +1,49 @@
+name: hinosnc
+description: HydroMate Monitor - Smart Nutrient Controller
+publish_to: 'none'
+version: 3.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # HTTP & WebSocket untuk ThingsBoard
+  http: ^1.2.0
+  web_socket_channel: ^3.0.0
+
+  # Simpan credentials & token
+  shared_preferences: ^2.3.0
+
+  # Push Notification via OneSignal
+  onesignal_flutter: ^5.2.5
+
+  # UI Libraries
+  provider: ^6.1.2
+  flutter_animate: ^4.5.0
+  fl_chart: ^1.1.1
+  intl: ^0.20.2
+  badges: ^3.1.2
+  overlay_support: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/logoapk.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "images/logoapk.png"
